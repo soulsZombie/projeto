@@ -5,6 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+
 </head>
 <body>
 <div align="center">
@@ -12,8 +18,11 @@
 
 	<form name="form1" method="post" action="sis/gravar">
 	
-	Nome: 	
-	
+	Nome:<input type="text" name="nome" >
+	e-Mail:<input type="text" name="email">
+	Matricula:<input type="text" name="matricula">
+		 	
+		<input type="submit" value="enviar">
 	
 	</form>
 
