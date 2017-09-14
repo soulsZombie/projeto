@@ -1,0 +1,209 @@
+<!Doctype html>  	
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    
+    <!-- define a viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- inserindo css do Bootstrap -->
+	<link href="bootstrap/bootstrap.min.css" rel="stylesheet" media="all" />
+	
+	<!-- inserindo css do Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all" />
+    
+    <!-- inserindo css personalizado -->
+    <link href="css/estilos.css" rel="stylesheet" media="all" />
+	
+	<!-- inserindo css do Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		
+		<style>
+							
+		.estilo{
+			font-family: 'Audiowide', cursive;
+		}
+		
+		.ajuste{
+			text-align: center;
+		}
+		
+		.afasta{
+			margin-top: 3%;	
+		}
+		
+		.dir{
+			text-align: right;
+		}	
+													
+		</style>	
+					
+</head>
+	
+<body>
+
+<div class="container">
+	<div class="row estilo">
+		<div class="col-xs-4">
+			<img src="img/controle.png" alt="controle" width="50%">
+		</div>
+		
+		<div class="col-xs-4">
+			<font size="6">Game & CIA
+		</div>
+		
+		<div class="col-xs-4">
+		
+		</div>
+	</div>
+</div><!-- Fim da 1ª Container-->
+
+<div class="container">
+	<div class="row">
+		<div class="col xs-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li><a href="ps4.html">Ps4<span class="sr-only">(current)</span></a></li>
+        <li><a href="xboxone.html">Xbox one</a></li>
+        <li><a href="nintendods.html">Nintendo DS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-left">
+        <li><a href="ps2.html">Ps2</a></li>
+		<li class="active"><a href="cadastro.html">Cadastro</a></li>
+		<form class="navbar-form navbar-left" role="pesquisar">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Pesquisar">
+        </div>
+        <button type="submit" class="btn btn-default">Pesquisar</button>
+		</form>
+		<i class="fa fa-sign-in" aria-hidden="true"></i>
+		<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+		</ul>
+    </div>
+  </div>
+</nav>
+		</div>
+	</div>
+</div><!-- Fim da 2ª Container-->
+
+<div class="container">
+	<div class="row estilo">
+		<div class="col-xs-4">
+			<font size="6">Cadastro</font>
+		</div>
+	</div>
+</div><!-- Fim da 3ª Container-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+<form class="form-horizontal">
+  <fieldset>
+	<div class="form-group">
+      <label for="inputNome" class="col-lg-2 control-label">Nome</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputTelefone" class="col-lg-2 control-label">Telefone</label>
+      <div class="col-lg-10">
+        <input type="telefone" class="form-control" id="inputTelefone" placeholder="Telefone">
+      </div>
+    </div>
+	<div class="form-group">
+      <label for="inputAssunto" class="col-lg-2 control-label">Assunto</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="mensagem" class="col-lg-2 control-label">Mensagem</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="mensagem"></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+		</div>
+	</div>
+</div><!-- Fim da 4ª Container-->
+
+<div class="container">
+	<div class="row ajuste">
+		<div class="col-xs-3">
+			<i class="fa fa-cc-visa" aria-hidden="true"></i>
+		</div>
+		
+		<div class="col-xs-3">
+			<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+		</div>
+		
+		<div class="col-xs-3">
+			<i class="fa fa-cc-diners-club" aria-hidden="true"></i>
+		</div>
+		
+		<div class="col-xs-3">
+			<i class="fa fa-cc-paypal" aria-hidden="true"></i>
+		</div>
+	</div>
+</div><!-- Fim da 5ª Container-->
+
+<div class="container">
+	<div class="row ajuste afasta">
+		<div class="col-xs-12">
+			<ul class="pagination">
+  <li class="disabled"><a href="#">&laquo;</a></li>
+  <li class="active"><a href="home.html">1</a></li>
+  <li><a href="ps4.html">2</a></li>
+  <li><a href="xboxone.html">3</a></li>
+  <li><a href="nintendods.html">4</a></li>
+  <li><a href="ps2.html">5</a></li>
+  <li><a href="cadastro.html">6</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
+		</div>	
+	</div>
+</div><!-- Fim da 6ª Container-->
+
+<div class="container">
+	<div class="row dir">
+		<div class="col-xs-12">
+			<a href="#top" class="glyphicon glyphicon-chevron-up"></a>
+		</div>
+	</div>
+</div><!-- Fim da 7ª Container-->
+
+<!-- script JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<!-- inserindo JavaScript do Bootstrap -->
+	<!-- Última versão JavaScript compilada e minificada -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
